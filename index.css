@@ -1,17 +1,26 @@
 * {
-    -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
-     box-sizing: border-box; 
+    /* box-sizing: border-box;  */
     margin: 0;
     background-color: rgb(227, 227, 227);
 }
 
 .header{
+    box-sizing: border-box;
+    border: 1.5px solid red;
     background-color: white;
     height: 4rem;
-}
+    padding: 10px;
+    align-items: center;
 
-.logo , innerhead{
-    padding:1rem;
+}   
+
+button{
+    border: 1px solid blue;
+}
+.logo{
+    display: flex;
+    justify-content:center;
+    box-sizing: border-box;
+    border: 1.5px solid green;  
     background-color: white;
 }
