@@ -2,25 +2,83 @@
     /* box-sizing: border-box;  */
     margin: 0;
     background-color: rgb(227, 227, 227);
+    font-size: 16px;
 }
+@import url(https://db.onlinewebfonts.com/c/4c1e2c4a8ec30ef2e462af6368444c8f?family=Riona+Sans+W01+Bold+Italic);
 
 .header{
     box-sizing: border-box;
-    border: 1.5px solid red;
     background-color: white;
     height: 4rem;
+    display: flex;
+    justify-content: center;
     padding: 10px;
-    align-items: center;
-
+    padding: 6px;
 }   
 
-button{
-    border: 1px solid blue;
-}
 .logo{
+    padding: 6px;
     display: flex;
-    justify-content:center;
-    box-sizing: border-box;
-    border: 1.5px solid green;  
+    display: inline-block;
+    padding-right: 28px;
     background-color: white;
+}
+
+.searchbar {
+    padding: 6px;
+    background-color: white;
+    display: flex;
+    display: inline-block;
+    padding-right: 28px;
+    background-color: white;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbuttons{
+    display: flex;
+}
+
+/* .searchbar {
+    display: flex;
+    display: inline-block;
+    width: 50px;
+    height: 15px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    font-size: 16px;
+    outline: none;
+    transition: background-color 0.3s ease;
+} */
+
+#search {
+    background-color: rgba(243, 253, 255, 0.932);
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  
+}
+/* .search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #aaa;
+} */
+
+
+
+button{
+    background-color: white;
+    border-style: none;
 }
